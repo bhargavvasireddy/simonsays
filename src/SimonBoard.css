@@ -1,0 +1,23 @@
+.simon-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.simon-btn {
+  width: 240px;
+  height: 240px;
+  border-radius: 32px;
+  border: 6px solid #333;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.simon-btn:active {
+  box-shadow: 0 0 0 0 #000;
+}
