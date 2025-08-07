@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import SimonBoard from "./SimonBoard";
+import ResultsPage from "./ResultsPage";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               }
             />
             <Route path="/board" element={<SimonBoard />} />
+            <Route path="/results" element={<ResultsPage />} />
           </Routes>
         </main>
       </div>
