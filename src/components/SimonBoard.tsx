@@ -1,6 +1,8 @@
-import React from 'react';
-import './SimonBoard.css';
-import ColorButton from './ColorButton';
+import React from "react";
+import "../styles/simonBoard.css";
+import ColorButton from "./ColorButton";
+
+// ...existing code...
 
 type Color = {
   name: string;
@@ -34,7 +36,7 @@ function SimonBoard({
   showingSequence,
   gameOver,
   onColorClick,
-  onStart
+  onStart,
 }: SimonBoardProps) {
   return (
     <div className="simon-board">
@@ -50,7 +52,15 @@ function SimonBoard({
       {(isPlaying || gameOver) && (
         <div className="game-info">
           <p>Round: {round}</p>
-          <p>{gameOver ? 'Game Over!' : showingSequence ? 'Watch...' : isUserTurn ? 'Your turn!' : 'Get ready...'}</p>
+          <p>
+            {gameOver
+              ? "Game Over!"
+              : showingSequence
+              ? "Watch..."
+              : isUserTurn
+              ? "Your turn!"
+              : "Get ready..."}
+          </p>
         </div>
       )}
     </div>
