@@ -8,7 +8,7 @@ Built with React and TypeScript, this interactive game provides an engaging user
 
 ## Demo Video
 
-Watch our Simon Says game in action: [SIMON SAYS DEMO](https://www.loom.com/share/ea00af52251c4f22926ba1ccdc0b216e?sid=151c94d8-124e-4741-9e84-0a1f4006a7e3)
+Watch my Simon Says game in action: [SIMON SAYS DEMO](https://www.loom.com/share/ea00af52251c4f22926ba1ccdc0b216e?sid=151c94d8-124e-4741-9e84-0a1f4006a7e3)
 
 ## Installation and Setup Instructions
 
